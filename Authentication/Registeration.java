@@ -1,4 +1,4 @@
-package Registration;
+package Authentication;
 
 
 import java.io.IOException;
@@ -90,12 +90,16 @@ public class Registeration {
 
     public Registeration() {
         Scanner sc = new Scanner(System.in);
+        
         System.out.print("Name Surname : ");
         setName(sc.nextLine());
+        
         System.out.print("UserName : ");
         setUserName(sc.next());
+        
         System.out.print("Email : ");
         setEmail(sc.next());
+        
         System.out.print("Password : ");
         setPassword(sc.next());
 
